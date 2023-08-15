@@ -8,6 +8,8 @@
 
 This is a simple server that scrapes Redis Sentinel stats and exports them via HTTP for Prometheus consumption.
 
+NOTE: local bluearchive fork of a repo that disappeared (leomminov/redis_sentinel_exporter)
+
 ## Configuration
 
 * `-debug` (env `DEBUG`) – Output verbose debug information.
